@@ -1,0 +1,19 @@
+[
+  {
+    "bindings": {
+      "cmd-u": "editor::Hover",
+      "cmd-e": "project_panel::ToggleFocus"
+    }
+  },
+
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "k": "menu::SelectPrev",
+      "j": "menu::SelectNext",
+      "h": "project_panel::CollapseSelectedEntry",
+      "l": "project_panel::ExpandSelectedEntry",
+      "enter": "project_panel::Open"
+    }
+  }
+]
